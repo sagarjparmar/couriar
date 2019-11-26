@@ -1,0 +1,113 @@
+body
+{   
+    background-color: rgb(207, 207, 207);
+}
+.container
+{
+    vertical-align: middle;
+    width:40%;
+    height:600px;
+    /*background-color: #abcdef;*/
+    right:20%;
+    margin:0 auto;
+}
+.couriaricon_container
+{
+    height:50%;
+    width:100%;
+    
+    text-align: center;
+}
+.icon
+{
+    height:100%;
+    width:100%;
+}
+.title_container
+{
+    margin-top: 5px;
+    height:8%;
+    width:100%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+}
+.loginInputcontainers
+{
+    margin-top: 5px;
+    height: 40%;
+    width:100%;
+    border:1px solid black;
+    background-color: #000000;
+    
+}
+.input_box
+{
+    height:30%;
+    width:80%;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inputlbl
+{
+    height:30%;
+    width:100%;
+    margin: 0 auto;
+    text-indent: 10px;
+    font-weight: 500;
+    color: white;
+}
+.inputer
+{
+    display:flex;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.inputs
+{
+    margin:0 auto;
+    height:60%;
+    width:90%;
+    border-style: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+}
+.inputicon{
+    flex:1;
+    width:10%;
+    height:40%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:8px;
+}
+input:focus
+{
+    outline: none;
+}
+.inputbtndiv
+{
+    text-align: center;
+    margin-top: 15px;
+}
+.submitbtn
+{
+    width:50%;
+    height:60%;
+    margin: 0 auto;
+    border-style: none;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .container
+    {
+        width:100%;
+        height:1000px;
+    }
+    
+}

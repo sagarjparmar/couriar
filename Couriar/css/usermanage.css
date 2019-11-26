@@ -1,0 +1,437 @@
+body
+{
+    height:100%;
+}
+.body-container
+{   
+    position: relative;
+    height:800px;
+    background-color:white;
+}
+.subcontainer
+{
+    position: relative;
+    top:10%;
+    width:95%;
+    height:100%;
+    margin:0 auto;
+    background-color: aliceblue;
+}
+.display-title-container
+{
+    width:100%;
+    height:15%;
+    background-color: #abcdef;
+}
+.inputboxContainer
+{
+    position: relative;
+    top:25%;
+    float: left;
+    padding-left: 1%;
+    width:25%;
+    height:50%;
+   /* background-color: azure;*/
+}
+.inputs
+{
+    display:flex;
+    border:1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+input[type=text]
+{
+    width:70%;
+    font-size: 15px;
+    text-indent: 10px;
+    height:38px;
+    border-radius: 5px 0px 0px 5px;
+}
+input[type=button]
+{
+    width:30%;
+    background-color: cornflowerblue;
+    border-radius: 0px 5px 5px 0px;
+}
+input{
+    border-style: none;
+}
+input:focus
+{
+    outline: none;
+}
+.input-title
+{
+    width:100%;
+    height:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+select
+{
+    width:80%;
+    font-size: 15px;
+    text-indent: 10px;
+    height:40px;
+    border-style: none;
+    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+button:focus
+{
+    outline: none;
+}
+select:focus
+{
+    outline: none;
+}
+.filtericon
+{
+    flex: 1;
+    width:40px;
+    height:40px;
+}
+/*CreateNewContainer*/
+.CreateNewContainer
+{
+    position: relative;
+    top:25%;
+    float: right;
+    width:30%;
+    height:50%;
+   /* background-color: azure;*/
+}
+.addnewbtn
+{
+    position: relative;
+    width:50%;
+    height:40px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.filteroptioncontainer
+{
+    position: relative;
+    top:25%;
+    float: left;
+    padding-left: 1%;
+    width:15%;
+    height:50%;
+  /* background-color: azure;*/
+}
+.subfiltercontainer
+{
+    position: relative;
+    top:25%;
+    float: left;
+    padding-left: 1%;
+    width:15%;
+    height:50%;
+   /*background-color: azure;*/
+}
+
+.createnewdiv
+{
+    position: fixed;
+    top:30%;
+    width:100%;
+    height:300px;
+    background-color: #352d2da4;
+}
+.EditUser
+{
+    position: absolute;
+    top:30%;
+    width:100%;
+    height:300px;
+    background-color: #352d2da4; 
+}
+.userwindow_container
+{
+    position: relative;
+    top:10%;
+    width:90%;
+    height:80%;
+    background-color: #abcdef;
+    border-radius: 5px;
+    border:1px solid black;
+    margin:0 auto;
+}
+.userinputdiv
+{
+    position: relative;
+    top:15px;
+    height:40%;
+    width:100%;
+   /* background-color: aliceblue;*/
+}
+.inputboxs
+{
+    height:100%;
+    width:33.33%;
+    float:left;
+    /*background-color: aquamarine;*/
+}
+.inputlbl
+{
+    height:35%;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    font-size: 20px;
+    /*background-color: blueviolet;*/
+}
+.inputcontainers
+{
+    background-color: #ffffff;
+    display: flex;
+    border:1px solid black;
+    border-radius: 5px;
+}
+.inputele
+{
+    width:95%;
+    height:45%;
+    margin-left:5px;
+}
+.inputele1
+{
+    width:95%;
+    height:37px;
+    margin-left:5px;
+}
+.imgForInput
+{
+    flex:1;
+    width:25px;
+}
+.inputdis
+{
+    width:90%;
+    margin:0 auto;
+}
+.permissiondiv
+{
+    width:100%;
+    height:100px;
+    /*background-color: aquamarine;*/
+    float:left;
+    margin-top: 10px;
+}
+.permissionselectdiv
+{
+    width:20%;
+    height:100%;
+    background-color: cornsilk;
+}
+.selectcontainers
+{
+    display: flex;  
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.selectpermission
+{
+    width:80%;
+    
+}
+.pericon
+{
+    width:25px;
+    flex: 1;
+}
+.submitbtndiv
+{
+    width:33.33%;
+    height:100%;
+    /*background-color: coral;*/
+    float:right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.saveuser
+{
+    margin-top:20px;
+    margin-left:20px;
+    font-weight: 700;
+    bottom:0;
+}
+.canclebtn
+{
+    position: absolute;
+    right:0;
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    border-style: none;
+    transform: translate(5px, -5px);
+}
+/* userlist */
+.userslist
+{
+    position: relative;
+    top:10px;
+    display: block;
+    margin:0 auto;
+    width:80%;
+    height:400px;
+    background-color:#bbdcfa;
+    border-radius:5px;
+    border:1px solid black;
+}
+.listsTitles
+{
+    width:100%;
+    height:50px;
+    display:block;
+}
+.listsContainer
+{
+    position: relative;
+    width:100%;
+    height:98%;
+    margin:0 auto;
+    overflow-y: scroll;
+}
+
+.userListContainer
+{
+    width:100%;
+    height:50px;
+    background-color: white;
+    font-weight: 550;
+    position: relative;
+    top:5px;
+    float: left;
+    border-bottom: 1px solid rgb(165, 161, 161);
+}
+.userListContainer:hover
+{
+    background-color: rgb(162, 186, 206);
+}
+
+.usernamediv
+{
+    float:left;
+    width:20%;
+    height:100%;
+    /*background-color: chartreuse;*/
+    text-align: center;
+}
+.useriddiv
+{
+    float:left;
+    width:5%;
+    height:100%;
+   /* background-color: coral;*/
+    text-align: center;
+}
+.useremaildiv
+{
+    float: left;
+    width:25%;
+    text-align: center;
+    height:100%;
+    /*background-color: cornflowerblue;*/
+}
+.permissiondiva
+{
+    float:left;
+    width:10%;
+    text-align:center;
+    height:100%;
+    /*background-color: blueviolet;*/
+}
+.createdondiv
+{
+    width:20%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.editdiv
+{
+    width:7%;
+    height:100%;
+    float:left;
+    text-align: center;
+    /*background-color: darkcyan;*/
+}
+.removediv
+{
+    width:10%;
+    height:100%;
+    float:left;
+    text-align: center;
+}
+.lblposition
+{
+    position: relative;
+    top:30%;
+}
+div
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textred
+{
+    color: red;
+}
+.textgreen
+{
+    color:blue;
+}
+.UpdateUserDetails
+{
+    top:30%;
+    width:100%;
+    height:300px;
+    background-color: #352d2da4;
+    position: fixed;
+}
+.Updatewindow_container
+{
+    position: relative;
+    top:10%;
+    width:90%;
+    height:80%;
+    background-color: #abcdef;
+    border-radius: 5px;
+    border:1px solid black;
+    margin:0 auto;
+}
+
+@media print
+{
+    .OrdersMainContainer
+    {
+        display: none;
+        visibility: hidden;
+    }
+    .btns
+    {
+        display:none;
+        visibility: hidden;
+    }
+    .header
+    {
+        display:none;
+        visibility: hidden;
+    }
+    .fill-container
+    {
+        display: hidden;
+        visibility: hidden;
+    }
+    .OrdersdetailsModifyContainer
+    {
+        display: block;
+    }
+    input{
+        display:none;
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,102 @@
+footer{
+    width:100%;
+    height:400px;
+    background-color: black;
+    color: white;
+}
+.footerContainer
+{
+    width:95%;
+    height:100%;
+ /*   background-color: brown;*/
+    margin:0 auto;
+}
+.footerDetails
+{
+    width:100%;
+    height:70%;
+  /*  background-color: aquamarine;*/
+}
+.firstfooterContainer
+{
+    width:30%;
+    height:100%;
+    float:left;
+   /* background-color: chartreuse;*/
+}
+.couriarlogocontainer
+{
+    position: relative;
+    margin-top: 10%;
+    width:100%;
+    height:20%;
+ /*   background-color: rgb(91, 199, 167);*/
+}
+.couriarlogo
+{
+    width:40px;
+    height:40px;
+    /*background-color: aliceblue;*/
+    margin-left:10%;
+}
+.languageContainer
+{
+    position: relative;
+    margin-top: 5%;
+    width:100%;
+    height:10%;
+  /*  background-color: rgb(91, 199, 167);*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size:15px;
+}
+.worldlogo
+{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    margin-left:10%;
+}
+a{
+    position: relative;
+    top:-5px;
+    color: white;
+}
+.headtitle
+{
+    width:100%;
+    height:10%;
+    /*background-color: rgb(35, 228, 147);*/
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.lbltitleAboute
+{
+    font-weight: 600;
+    color: white;
+}
+.footertitleopt
+{
+    width:100%;
+    height:7%;
+  /*  background-color: rgb(35, 228, 147);*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.link:hover
+{
+    background-color: rgba(201, 201, 201, 0);
+    text-decoration: underline;
+}
+.copyrightcon
+{
+    width:70%;
+    height:20%;
+    /*background-color: coral;*/
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}

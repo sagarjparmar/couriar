@@ -1,0 +1,138 @@
+.signin
+{
+	position:relative;
+	margin:10%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#ffffff;
+	text-align:center;
+}
+.otpicon
+{
+	display:block;
+	margin:0 auto;
+	height:100px;
+	width:100px;
+}
+.otp-intro
+{
+	text-align:center;
+	display:block;
+	font-size:15px;
+}
+.add
+{
+	text-align:center;
+	display:block;
+	font-size:15px;
+}
+.otp
+{
+	text-align:center;
+	width:200px;
+	height:30px;
+	margin:10%;
+}
+.reotp
+{
+	text-align:center;
+	padding:10%;
+	font-size:13px;
+	color:#0049F5;
+	display:block;
+}
+.btn-next-login
+{
+	display:block;
+	margin:0 auto;
+	height:40px;
+	width:90%;
+	background-color:#3D4AFF;
+	border:none;
+	font-weight:bold;
+	font-size:15px;
+	color:#ffffff;
+}
+.btn-next-login:hover
+{
+	background-color:#000CB3;
+	font-weight:bold;
+	color:#ffffff;
+}
+.signup-box
+{
+	width:100%;
+	height:40px;
+	margin:5px;
+	border-radius:5px;
+	border-style: groove;
+}
+::placeholder
+{
+	padding-left:0px;
+	vertical-align:middle;
+}
+.pass-intro{
+	font-size:10px;
+	text-align:left;
+}
+.login-checkbox{
+	height:15px;
+	width:15px;
+	vertical-align:middle;
+}
+.keep-login-span{
+	font-size:12px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+.term-intro
+{
+	font-size:10px;
+}
+.login-uid-input
+{
+	padding:10px;
+	height:50px;
+	border: 1px solid #d2d2d2;
+	width:90%;
+	border-radius:5px;
+}
+.login-features
+{
+	display:table;
+	position:relative;
+	vertical-align:middle;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:10px;
+	margin:0 auto;
+}
+.login-features-logo
+{
+	display:table-cell;
+	height:50px;
+	width:100px;
+	padding:10px;
+}
+.login-feature
+{
+	display:table-cell;
+	height:30px;
+	width:500px;
+	padding:10px;
+	vertical-align:top;
+}
+h2
+{
+	font-size:20px;
+}
+.signup-box:focus
+{
+	border-radius:5px;
+	border-style: groove;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+.display-id-intro
+{
+	text-align:center;
+}

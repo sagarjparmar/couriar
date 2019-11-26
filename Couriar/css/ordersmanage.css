@@ -1,0 +1,524 @@
+body
+{
+    width: 100%;
+    height:800px;
+    background-color:white;
+}
+.OrdersMainContainer
+{
+    position: relative;
+    top:10%;
+    width:100%;
+    height:600px;
+    margin:0 auto;
+   /* background-color: yellowgreen;*/
+}
+.fill-container
+{
+    width:95%;
+    height:100%;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+.SearchContainer
+{
+    position: relative;
+    top:10px;
+    width:100%;
+    height:15%;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+.inputsDivider
+{
+    width:33.33%;
+    height:100%;
+    float: left;
+    /*background-color: coral;*/
+}
+.inputslbl
+{ 
+    width:100%;
+    height:30%;
+    /*background-color: blue;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-indent: 20px;
+}
+.lbltext
+{
+    position: relative;
+    top:5px;
+}
+.selectBox
+{
+    margin:0 auto;
+    width: 90%;
+    height: 100%;
+   /* background-color: aqua;*/
+}
+.inputSelectDiv
+{
+    display: flex;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.filterselect
+{
+    width:80%;
+    height:40px;
+    border-style: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.filtericon
+{
+    flex: 1;
+    width:20%;
+    border-style: none;
+    border-radius:5px;
+    border-radius: 0px 5px 5px 0px;
+}
+select:focus{
+    outline: none;
+}
+.inputBoxDiv
+{
+    display: flex;
+}
+.inputBoxDiv
+{
+    display: flex;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.searchBox
+{
+    width:100%;
+    height:38px;   
+    border-style: none;
+    border-radius: 5px 0px 0px 5px;
+    text-indent: 20px;
+    font-size: 15px;
+}
+.searchbtn
+{
+    width:30%;
+    border-style:none;
+    border-radius: 0px 5px 5px 0px;
+}
+input:focus
+{
+    outline: none;
+}
+.orderslistContainer
+{
+    position: relative;
+    margin:0 auto;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.294);
+    top:30px;
+    width:95%;
+    height:75%;
+   /* background-color:green;*/
+}
+.ordersList
+{
+    margin: 0 auto;
+    width:99%;
+    height:94%;
+    overflow-y: scroll;
+}
+.orderDetailsContainer
+{
+    width:100%;
+    height:15%;
+    vertical-align: middle;
+    background-color:#DFE2DB;
+    border-bottom:1px solid #0d0e0d25; 
+}
+.orderDetailsContainer:hover
+{
+    background-color: rgb(249, 251, 247);
+}
+.ordersTitle
+{
+    position: relative;
+    margin: 0 auto;
+    top:3px; 
+    width:99%;
+    height:5%;
+    border-radius: 5px 5px 0px 0px;
+    overflow-y: scroll;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    font-weight: 600;
+}
+.headId
+{
+    width:3%;
+    height:100%;   
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.headUname
+{
+    float: left;
+    width:5%;
+    height:100%;   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.headSname
+{
+    float: left;
+    width:12%;
+    height:100%;   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.headRAddressname
+{
+    float: left;
+    width:20%;
+    height:100%;   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.idContainer
+{
+    width:3%;
+    float:left;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.uidContainer
+{
+    width:5%;
+    float:left;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.RNameContainer
+{
+    float: left;
+    width:12%;
+    height:100%;   
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.RAddressContainer
+{
+    float: left;
+    width:20%;
+    height:100%;   
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.lblset
+{
+    position: relative;
+    top:30%;
+}
+.EditOpt
+{
+    width:8%;
+    height:100%;   
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.RButtonContainer
+{
+    float: left;
+    width:8%;
+    height:100%;   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.editviewbtn
+{
+    position: relative;
+    top:25%;
+    width:30px;
+    height:30px;
+    border-style: none;
+}
+.editviewbtn:hover
+{
+    top:20%;
+    width:40px;
+    height:40px;
+}
+.Pick
+{
+    color:green;
+}
+.accept
+{
+    color:#3550ec;
+}
+.ontheway
+{
+    color:#3550ec;
+}
+.destination
+{
+    color: blue;
+}
+.delivered
+{
+    color: #3550ec;
+}
+.success
+{
+    color: #3550ec;
+}
+.OrdersdetailsModifyContainer
+{
+    top:15%;
+    position: fixed;
+    width:100%;
+    height:400px;
+    background-color: #0d0e0d98;
+}
+.ModifyDetailsContainer
+{
+    width:90%;
+    height:95%;
+    position: relative;
+    top:2%;
+    background-color: rgba(255, 254, 254, 0.924);
+    margin:0 auto;
+}
+.OrdersDetailsPart
+{
+    width:100%;
+    height:10%;
+    background-color: #DFE2DB;
+    text-align: center;
+}
+.OrdersIdDiv
+{
+    width:15%;
+    float: left;
+    height:100%;
+    background-color: #7b8df1;
+}
+.OrdersIdDivsmall
+{
+        width:10%;
+        float: left;
+        height:100%;
+        background-color: #7b8df1;
+}
+.ttllbl
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    top:12px;
+}
+.OrderAddressDetails
+{
+    width:100%;
+    height:55%;
+    /*background-color: blueviolet;*/
+}
+.threeDevider
+{
+    position: relative;
+    top:2%;
+    float:left;
+    width:33.33%;
+    height:95%;
+    /*background-color: #DFE2DB;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.AddressTitle
+{
+    width:100%;
+    height:15%;
+    /*background-color: aqua;*/
+}
+.AddressContainer
+{
+    width:100%;
+    height:85%;
+    /*background-color: brown;*/
+    text-align: left;
+}
+.ATlbl
+{
+    position: relative;
+    top:25%;
+}
+.addresslbl
+{
+    
+}
+.DisplayAddress
+{
+    margin: 0 auto;
+    width:40%;
+    height:90%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    word-wrap: break-word;
+    top:10px;
+    /*background-color: cornflowerblue;*/
+}
+.ChargesContainer{
+    width:100%;
+    height:85%;
+    /*background-color: brown;*/
+    text-align: left;
+}
+.DisplayCharges
+{
+    margin: 0 auto;
+    width:80%;
+    height:90%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    word-wrap: break-word;
+    top:10px;
+    /*background-color: cornflowerblue;*/
+}
+.chargeTitle
+{
+    width:100%;
+    height:20%;
+    /*background-color: coral;*/
+    display: block;
+}
+.ServiceTag
+{
+    width:65%;
+    height:100%;
+    float: left;
+    /*background-color: yellow;*/
+    text-align: right;
+}
+.ChargesTag
+{
+    width:35%;
+    height:100%;
+    float: left;
+    /*background-color: yellow;*/
+    text-align: left;
+    text-indent: 15px;  
+}
+.totalCharge
+{
+    border-top: 1px solid black;
+}
+.setlbl
+{
+    position: relative;
+    top:25%;
+}
+
+.OrderActionDetails
+{
+    width:100%;
+    height:30%;
+    position: relative;
+    top:5px;
+   /* background-color: #3550ec;*/
+}
+.ParcelSizeContainer
+{
+    width:33.33%;
+    height:100%;
+    float:left;
+    /*background-color: #DFE2DB;*/
+}
+.SizeInputDiv
+{
+    width:80%;
+    height:50%;
+    /*background-color: aqua;*/
+    margin:0 auto;
+}
+.SizeLbl
+{
+    width:100%;
+    height:40%;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: violet;*/
+}
+.sizetitlelbl
+{
+    position: relative;
+    top:15%;
+}
+.SizeInputBox
+{
+    width:100%;
+    height:60%;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: brown;*/
+}
+.selectOption
+{
+    width:100%;
+    height:100%;
+    border-style: none;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.buttonDiv
+{
+    width:50%;
+    height:100%;
+    margin: 0 auto;
+    position: relative;
+    top:0%;
+    /*background-color: #3550ec;*/
+    text-align: center;
+}
+.Ordersbtn
+{
+    position: relative;
+    top:35%;
+    width:80%;
+    height:65%;
+    border-style: none;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.Ordersbtn:hover
+{
+    font-weight: 600;
+    border:2px solid black; 
+}
+.save
+{
+    border:1px solid green;
+    color: green;
+}
+.canclebtn
+{
+    position: absolute;
+    right:0%;
+    width:2%;
+    height:7%;
+    border-style: none;
+    transform: translate(5px, -5px);
+}
+.canclebtn:hover{
+    width:2.5%;
+    height:7.5%;
+    transform: translate(7px, -7px);
+}
+button{
+    outline: none;
+}

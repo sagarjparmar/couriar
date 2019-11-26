@@ -1,0 +1,117 @@
+body{
+    height:1000px;
+}
+.chargemaincontainer
+{
+    position: relative;
+    top:5%;    
+    width:100%;
+    height:800px;
+    background-color: rgb(208, 234, 255);
+   /* background-color: blanchedalmond;*/
+}
+.chargecontainer
+{
+    width:90%;
+    height:90%;
+    margin:0 auto;
+    position: relative;
+    top:10%;
+}
+.topspace
+{
+    margin-top: 2%;
+}
+.chargeheader
+{
+    display: block;
+    width:100%;
+    height:5%;
+  /*  background-color: tomato;*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.deliverytypecontainer
+{
+    position: relative;
+    top:2%;
+    width:100%;
+    height:15%;
+    
+    border-radius: 5px;
+    background-color: rgb(161, 177, 250);
+}
+.submitContainer
+{
+    position: relative;
+    top:10%;
+    width:10%;
+    margin: 0 auto;
+    height:5%;
+    border-radius: 5px;
+    background-color: coral;
+}
+.headtitle
+{
+    width:100%;
+    height:25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-indent: 20px;
+  /*  background-color: rgb(191, 205, 223);*/
+}
+.optionscontainer
+{
+    width:25%;
+    height:75%;
+ /*   background-color: blue;*/
+    text-align: center;
+    float: left;
+}
+.optionscontainer1
+{
+    width:33.33%;
+    height:75%;
+  /*  background-color: blue;*/
+    text-align: center;
+    float: left; 
+}
+.optiontitlecontainer
+{
+    position: relative;
+    top:2px;
+    width:70%;
+    height:30%;
+    margin: 0 auto;
+   /* background-color: blueviolet;*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-indent: 10px;
+}
+.inputcontainer
+{
+    position: relative;
+    top:5%;
+    width:90%;
+    height:50%;
+    margin:0 auto;
+}
+input[type="number"] {
+    width:80%;
+    height:100%;
+    position: relative;
+    border:1px solid black;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+input[type="submit"] {
+    width:100%;
+    height:100%;
+    border:1px solid black;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+input[type="submit"]:hover{
+    font-size: 17px;
+}

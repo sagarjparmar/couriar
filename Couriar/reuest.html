@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Couriar - Request New Order</title>
+    <link rel="icon" href="src/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/newRequest.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/scrollbar.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container-1">
+        <div class="container-1 from-to">
+            <div class="divFullinput" id="fromAddress">
+                <div class="setFormManag">
+                        <div class="posi">
+                                <label class="lblForInput">Name :</label>
+                                <div class="inputFromDiv">
+                                    <input type="text" class="inputFromLocation">
+                                    <input type="image" class="btnFromLocation" src="src/name.svg"></button>
+                                </div>
+                            </div>                    
+                    <div class="posi">
+                        <label class="lblForInput">Mobile No :</label>
+                        <div class="inputFromDiv">
+                            <input type="text" class="inputFromLocation">
+                            <input type="image" class="btnFromLocation" src="src/phone.svg"></button>
+                        </div>
+                    </div>
+                    <div class="posi">
+                        <label class="lblForInput">Location :</label>
+                        <div class="inputFromDiv">
+                            <input type="text" class="inputFromLocation">
+                            <input type="image" class="btnFromLocation" src="src/loc.png"></button>
+                        </div>
+                    </div>
+                    <div class="divForAddEnterOrlbl">
+                        <div class="divForOrLbl">Or Select Address Using</div>
+                    </div>
+                    <div class="divForManualAddress">
+                        <div class="divForManuallyAddressBtn">
+                            <button class="btnForManuallyAddress">Enter Address</button>
+                            <img src="src/pencil.svg" class="imgForAddManICon">
+                        </div>
+                        <div class="divForManuallyAddressBtn">
+                            <button class="btnForManuallyAddress">Your Contacts</button>
+                            <img src="src/addbook.svg" class="imgForAddManICon">
+                        </div>
+                    </div>
+                    
+                    <div class="divForDisplayAddress">
+                        <p class="spanForAddress">Pipalgabhan, Ta-chikhli, Dist-navsari<br>Pincode - 396521</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divAddressFrom-To">
+                <div class="divLogoDisplay">
+                        <object data="src/icon.svg" type="image/svg+xml" class="divLogo"></object>
+                </div>
+            </div>    
+            <div class="divFullinput" id="toAddress">
+                <div class="setFormManag">
+                    <div class="posi">
+                        <label class="lblForInput">Name :</label>
+                        <div class="inputFromDiv">
+                            <input type="text" class="inputFromLocation">
+                            <input type="image" class="btnFromLocation" src="src/name.svg"></button>
+                        </div>
+                    </div>                    
+                    <div class="posi">
+                        <label class="lblForInput">Mobile No :</label>
+                        <div class="inputFromDiv">
+                            <input type="text" class="inputFromLocation">
+                            <input type="image" class="btnFromLocation" src="src/phone.svg"></button>
+                        </div>
+                    </div>
+                    <div class="posi">
+                        <label class="lblForInput">Location :</label>
+                        <div class="inputFromDiv">
+                            <input type="text" class="inputFromLocation">
+                            <input type="image" class="btnFromLocation" src="src/loc.png"></button>
+                        </div>
+                    </div>
+                    <div class="divForAddEnterOrlbl">
+                        <div class="divForOrLbl">Or Select Address Using</div>
+                    </div>
+                    <div class="divForManualAddress">
+                        <div class="divForManuallyAddressBtn">
+                            <button class="btnForManuallyAddress">Enter Address</button>
+                            <img src="src/pencil.svg" class="imgForAddManICon">
+                        </div>
+                        <div class="divForManuallyAddressBtn">
+                            <button class="btnForManuallyAddress">Your Contacts</button>
+                            <img src="src/addbook.svg" class="imgForAddManICon">
+                        </div>
+                    </div>
+                  
+                    <div class="divForDisplayAddress">
+                        <p class="spanForAddress">Pipalgabhan, Ta-chikhli, Dist-navsari <br> Pincode - 396521</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="DisplayAddressList" id="contactPopup">
+        <div class="divForAddFillCon">
+            <div class="divForAddConInPart" style="background-image: url('src/couriar_cover.png');">
+                <div class="divForAdd">
+                    <div class="divForAddlbl">
+                        <label class="lblForAddTitle">Address :</label>
+                    </div>
+                    <div class="divForAddContainer">
+                        <div class="divForLblInputContainer">
+                            <label class="lblForInputAdd">
+                                Name :
+                            </label>
+                            <div class="divForAddInput">
+                                <img src="src/name.svg" class="imgForAddInput">
+                                <input type="text" class="inputForAdd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divForAddContainer">
+                            <div class="divForLblInputContainer">
+                                <label class="lblForInputAdd">
+                                    Mobile No :
+                                </label>
+                            <div class="divForAddInput">
+                                <img src="src/phone.svg" class="imgForAddInput">
+                                <input type="text" class="inputForAdd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divForAddContainer">
+                            <div class="divForLblInputContainer">
+                                <label class="lblForInputAdd">
+                                    E Mail :
+                                </label>
+                            <div class="divForAddInput">
+                                <img src="src/at.svg" class="imgForAddInput">
+                                <input type="text" class="inputForAdd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divForAddContainer">
+                            <div class="divForLblInputContainer">
+                                <label class="lblForInputAdd">
+                                    Home Address :
+                                </label>
+                            <div class="divForAddInput">
+                                <img src="src/home.svg" class="imgForAddInput">
+                                <input type="text" class="inputForAdd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divForAddContainer">
+                            <div class="divForLblInputContainer">
+                                <label class="lblForInputAdd">
+                                    Landmark :
+                                </label>
+                            <div class="divForAddInput">
+                                <img src="src/LandMark.svg" class="imgForAddInput">
+                                <input type="text" class="inputForAdd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divForAddContainer">
+                            <div class="divForLblInputContainer">
+                                <label class="lblForInputAdd">
+                                   State :
+                                </label>
+                            <div class="divForAddInput">
+                                <img src="src/state.svg" class="imgForAddInput">
+                                <input type="text" class="inputForAdd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divForAddContainer">
+                            <div class="divForLblInputContainer">
+                                <label class="lblForInputAdd">
+                                    City :
+                                </label>
+                            <div class="divForAddInput">
+                                <img src="src/town.svg" class="imgForAddInput">
+                                <input type="text" class="inputForAdd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divForAddContainer">
+                            <div class="divForLblInputContainer">
+                                <label class="lblForInputAdd">
+                                    Town/Villege :
+                                </label>
+                            <div class="divForAddInput">
+                                <img src="src/villege.svg" class="imgForAddInput">
+                                <input type="text" class="inputForAdd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divForAddContainer">
+                            <div class="divForLblInputContainer">
+                                <label class="lblForInputAdd">
+                                    Postal Code:
+                                </label>
+                            <div class="divForAddInput">
+                                <img src="src/mailbox.svg" class="imgForAddInput">
+                                <input type="text" class="inputForAdd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divForAddContainer">
+                        <div class="divForLblInputContainer">
+                            <div class="divForConSaveCheck">
+                                <input type="checkbox" class="checkboxForSaveCon">
+                                <label class="lblForSaveContact">Save in your Contact Book.</label>
+                            </div>
+                            <div class="divForConCont">
+                                <button class="btnForCont">Continue</button>
+                                <img src="src/name.svg" class="imgForContBtn">
+                            </div>       
+                        </div>
+                    </div>                    
+                </div>           
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    $('#contactPopup').hide();
+</script>

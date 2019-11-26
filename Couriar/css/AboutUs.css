@@ -1,0 +1,35 @@
+.fullcontainer
+{
+    position: relative;
+    top:15%;
+    width:90%;
+    height:800px;
+    margin:0 auto;
+    background-color:#e7edf7;
+}
+.detailscontainer
+{
+    width:98%;
+    height:85%;
+    margin:0 auto;
+    position: relative;
+    top:5%;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headtitle
+{
+    display: block;
+    margin-top:0px;
+    color: #15537d;
+
+}
+.midcontainer
+{
+    position: relative;
+    top:5%;
+    width:90%;
+    height:90%;
+    margin:0 auto;
+    background-color: white;
+}

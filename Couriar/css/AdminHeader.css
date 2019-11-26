@@ -1,0 +1,124 @@
+.header
+{   z-index: 1;
+    top:0;
+    width:99%;
+    height:65px;
+    background-color:aliceblue;
+    position:fixed;
+    box-shadow:0 10px 6px -6px #bcbcbc;
+}
+.HeaderLogoContainer
+{
+    height:100%;
+    width:20%;
+    /*background-color: aqua;*/
+    margin-left: 10px;
+    float:left;
+}
+.Headerlogo
+{
+    width:100%;
+    height:100%;
+}
+.optionsContainer
+{
+    width:20%;
+    height:100%;
+    /*background-color: rgb(117, 63, 13);*/
+    float: right;
+}
+.optContainer
+{
+    width:45%;
+    height:100%;
+    /*background-color: azure;*/
+    float: right;
+    margin-right: 5px;
+}
+.userShow{
+    width:100%;
+    height:100%;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+ /*   background-color: aqua;*/
+}
+.username
+{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+.userOption
+{
+    position: absolute;
+    height:30px;
+    width:100px;
+    right:0;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 0px 0px 5px 5px;
+  /*  background-color: blue;*/
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    height:25px;
+    color:black;
+    background-color: aliceblue;
+}
+.menuOptions
+{
+    position: absolute;
+    width:220px;
+    height:100px;
+    background-color: crimson;
+    float:left;
+    font-weight: 600;
+    text-align: center;
+}
+.optionbtn_container
+{
+    height:100%;
+    width:100%;
+   /* background-color: chartreuse;*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.menutitle
+{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+.optContainer:hover
+{
+    background-color: black;
+    color:white;
+}
+a:hover
+{
+    background-color: black;
+    color:white;
+}
+@media screen and (max-width: 400px) {
+    .header
+    {
+        height:40px;
+        position:fixed;
+    }
+    .HeaderLogoContainer
+    {
+        width:40%;
+    }
+    .optionsContainer
+    {
+        width:40%;
+    }
+}
